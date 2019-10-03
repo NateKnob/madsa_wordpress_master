@@ -43,39 +43,6 @@ Template Name: Hompage 2017
 		    </div>
 		  </article><!-- end article -->
 
-		  <div class="nsignup" style="background-color:#f7f7f7">
-		    <div class="bound">
-							<div id="mc_embed_signup" style="max-width:1200px; margin: 0 auto; padding: 10px">
-								<form action="https://dsa-atlanta.us15.list-manage.com/subscribe/post?u=da337be4ce48b3dbd7c84bc30&amp;id=9ef0d6809f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-									<div id="mc_embed_signup_scroll" class="ns-cards">
-										<div class="ns-card">
-											<h3 style="flex: 2" >Get our newsletter</h3>
-										</div>
-										<div class="mc-field-group, ns-card">
-											<input type="text" value="" name="FNAME" placeholder="First Name" class="" id="mce-FNAME">
-											<input type="text" value="" name="LNAME" placeholder="Last Name" class="" id="mce-LNAME">
-										</div>
-<!-- 										<div class="mc-field-group" style="flex: 1; padding:5px;">
-										</div> -->
-										<div class="ns-card">
-											<div class="mc-field-group, ns-card">
-												<input type="email" value="" name="EMAIL" placeholder="Email Address" class="required email" id="mce-EMAIL">
-											</div>
-											<div id="mce-responses" class="clear">
-												<div class="response" id="mce-error-response" style="display:none"></div>
-												<div class="response" id="mce-success-response" style="display:none"></div><br>
-											</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-											<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_da337be4ce48b3dbd7c84bc30_9ef0d6809f" tabindex="-1" value="">	</div>
-											<div class="clear" style="flex: 0.5"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-										</div>
-									</div>
-								</form>
-							</div>
-							<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='NB_ID';ftypes[3]='number';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-		                  <?php echo apply_filters('the_content', get_post_meta($post->ID, '_dsa_feature_box', true)); ?>
-			  </div>
-		  </div>
-
 		  <div class="diptych" style="display:none">
 		    <div class="bound">
 		      <div class="cards">
@@ -84,33 +51,6 @@ Template Name: Hompage 2017
 		          <div class="inner">
 						<?php dynamic_sidebar( 'frontbar' ); ?>
 
-		            <!--<div class="contents">
-		              <h1>What we believe</h1>
-
-		              <div class="beliefs-carousel">
-		                <button class="control prev" aria-hidden="true"></button>
-		                <button class="control next" aria-hidden="true"></button>
-		                <ol class="beliefs">
-		                  <li class="active">Everyone should be able to live a full and dignified life.</li>
-		                  <li>The economy must be run democratically; none shall be poor so another can be rich.</li>
-		                  <li>The abolition of poverty.</li>
-		                  <li>Affordable, humane housing for all.</li>
-		                  <li>Universal Medicare-for-all.</li>
-		                  <li>Free education: from pre-K to trades, college and beyond.</li>
-		                  <li>Democracy in the workplace; all workers have the right to organize.</li>
-		                  <li>Complete reproductive freedom in all forms.</li>
-		                  <li>An end to racial, gender and all other forms of oppression.</li>
-		                  <li>An end to punitive justice and mass incarceration.</li>
-		                  <li>An end to military and police aggression.</li>
-		                  <li>Democratic control over the environment to preserve the planet.</li>
-		                  <!-- ?php echo apply_filters('the_content', get_post_meta($post->ID, '_dsa_slide1', true)); ? -->
-		                <!--</ol>
-		              </div>
-
-		              <div class="action">
-		                <a href="https://seattledsa.org/platform/" class="dark small">Read full platform</a>
-		              </div>
-		            </div>-->
 
 		          </div>
 		        </div><!-- end beliefs carousel -->
@@ -224,7 +164,7 @@ Template Name: Hompage 2017
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ui-foregrounds/calendar.svg" width="70" height="70" /><br />
 					<h2 class="dsa-section-title txt-DSAwhite">Upcoming Events</h2>
 				</div>
-        <iframe src="https://teamup.com/ksk2abcif9dkgtgu16?showHeader=0&amp;showSidepanel=0" frameborder="0" width="100%" height="700"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?src=metroatldsa%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 			</div>
 		</div>
 
